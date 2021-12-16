@@ -10,6 +10,13 @@ public class Main {
 		
 		while(exit != true) {
 			
+			System.out.println("                         _      ____  ____ \r\n"
+					+ "   ____ ___  ____ _   __(_)__  / __ \\/ __ )\r\n"
+					+ "  / __ `__ \\/ __ \\ | / / / _ \\/ / / / __  |\r\n"
+					+ " / / / / / / /_/ / |/ / /  __/ /_/ / /_/ / \r\n"
+					+ "/_/ /_/ /_/\\____/|___/_/\\___/_____/_____/  \r\n"
+					+ "                                           ");
+			System.out.println();
 			
 			System.out.println("a.) new entry");
 			System.out.println("b.) search by actor");
@@ -20,20 +27,21 @@ public class Main {
 			System.out.println("g.) quit");
 			System.out.println();
 
-			System.out.printf("Please enter your selection: ");
-			
+			System.out.println("Please enter your selection: ");
+			System.out.printf(">: ");
 
 			String switchSelection = input.getKeyboardLine();
 
 			if(switchSelection.toLowerCase().equals("a")) {
 				System.out.println("Please enter movie data as shown below");
-				System.out.println("MovieTitle,Actor1,Actor2,Director,Year,Director");
-				System.out.println("Movie Data: ");
+				System.out.println("MovieTitle,Actor1,Actor2,Director,Year,Runtime");
+				System.out.printf(">: ");
 				String movieData = input.getKeyboardLine();
 				
 				fileWrite fr = new fileWrite("db.txt");
 				fr.writeLine(movieData);
 				fr.saveFile();
+				db = new Database("db.txt"); // reload database after new entry 
 
 			}
 			
@@ -82,11 +90,10 @@ public class Main {
 				System.out.println();
 				exit = true;
 			}
-
+			
 		}
 		
 		input.closeKeyboard();
-		System.out.println("program exit");
 		System.exit(0);
 	}
 		
