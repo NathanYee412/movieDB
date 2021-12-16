@@ -1,7 +1,58 @@
 The matrix,Keanu Reeves,Laurance Fishburne,Lana Wachowski,1999,196
 Starwars IX,Daisy Ridley,John Boyega,Nick Yee,2001,299
-asdf,asdf,asdf,asdf,222,222
-aaa,bbb,ccc,ddd,123,456
+Shang-Chi and the Legend of the Ten Rings,Simu Liu,Awkwafina,Destin Daniel Cretton,2021,132
 Dune,Timothee Chalamet,Rebecca Ferguson,Denis Villeneuve,2021,155
+No Time to Die,Daniel Craig,Ana de Armas,Cary Joji Fukunaga,2021,163
+Bruised,Halle Berry,Adan Canto,Halle Berry,2020,129
+Sonic the Hedgehog,Ben Schwartz,Jim Carrey,Jeff Fowler,2020,99
+Klaus,Jason Schwartzman,JK Simmons,Sergio Pablos,2019,96
+Avengers: Endgame,Robert Downey Jr,Chris Evans,Anthony Russo,2019,181
+Spider-Man: Far from Home,Tom Holland, Samuel L Jackson,Jon Watts,2019,129
+Joker,Joaquin Phoenix,Robert De Niro,Todd Phillips,2019,122
+Parasite,Kang-ho Song,Sun-kyun Lee,Bong Joon Ho,2019,132
+Midsommar,Florence Pugh,Jack Reynor,Ari Aster,2019,148
+Black Panther,Chadwick Boseman,Michael B Jordan,Ryan Coogler,2018,134
+Aquaman,Jason Momoa,Amber Heard,James Wan,2018,143
+Ready Player One,Tye Sheridan,Olivia Cooke,Steven Spielberg,2018,140
+Hereditary,Toni Collette,Milley Shapiro,Ari Aster,2018,127
+Tomb Raider,Alicia Vikander,Dominic West,Roar Uthaug,2018,119
+The Meg,Jason Statham,Bingbing Li,Jon Turteltaub,2018,113
+Crazy Rich Asians,Constance Wu, Henry Golding,Jon M Chu,2018,120
+Rampage,Dwayne Johnson,Naomie Harris,Brad Peyton,2018,107
+Blade Runner 2049,Harrison Ford,Ryan Gosling,Denis Villeneuve,2017,164
+Spiderman Homecomming,Tom Holland,Robert Downey Jr,Jon Watts,2017,133
+Baby Driver,Ansel Elgort,Jon Bernthal,Edgar Wright,2017,113
+It,Bill SKarsgard,Jaeden Martell,Andy Mushietti,2017,135
+Guardians of the Galaxy Vol 2,Chris Pratt,Zoe Saldana,James Gunn,2017,136
+Coco,Anthonly Gonzalez,Gael Garcia,Lee Unkrich,2017,105
+Logan,Hugh Jackman,Patrick Stewart,James Mangold,2017,137
+Deadpool,Ryan Reynolds,Morena Baccarin,Tim Miller,2016,108
+Hacksaw Ridge,Andrew Garfield,Sam Worthington,Mel Gibson,2016,139
+Arrival,Amy Adams,Jeremy Renner,Denis Villeneuve,2016,116
+La La Land,Ryan Gosling,Emma Stone,Damien Chazelle,2016,128
+Train To Busan,Gong Yoo,Yu-mi Jung,Sang-ho Yeon,2016,118
+Centeral Intelligence,Dwayne Johnson,Kevin Hart,Rawson Marshall Thurber,2016,107
+Moonlight,Mahershala Ali,Naomi Harris,Barry Jenkins,2016,111
+Raw,Garance Mariller,Ella Rumpf,Julia Ducournau,2016,99
+Spectre,Daniel Craig,Christopher Waltz,Sam Mendes,2015,148
+The Big Short,Christian Bale,Steve Carell,Adam McKay,2015,130
+The Martian,Matt Damon,Jessica Chastain,Ridley Scott,2015,144
+derella,Lily James,Cate Blanchett,Kenneth Branagh,2015,105
+Harry Potter and the Sorcerer's Stone,Daniel Radcliffe,Rupert Grint,Chris Columbus,2001,152
+Pearl Harbor,Ben Affleck, Kate Beckinsale,Michael Bay,2001,183
+Spirited Away,Daveigh Chase,Suzanne Pleshette,Hayao Miyazaki,2001,125
+A Beautiful Mind,Russell Crowe,Ed Harris,Ron Howard,2001,135
+Shrek,Mike Myers,Eddie Murphy,Andrew Adamson,2001,90
+Fight Club,Brad Pitt,Edward Norton,David Fincher,1999,139
+Looper,Joseph Gordon-Levitt,Bruce Willis,Rian Johnson,2012,113
+Django Unchained,Jamie Foxx,Christoph Waltz,Quentin Tarantino,2012,165
+21 Jump Street,Jonah Hill,Ice Cube,Phil Lord,2012,109
+Men in Black,Will Smith,Timmy Lee Jones,Barry Sonnenfeld,98,1997
 
-The truman show,Jim Carry,Nick Yee,Nate Yee,1996,200
+
+
+test,test,test,test,1200,123
+
+test,test,test,test,123,123
+
+test2,test2,test2,test2,124,215
