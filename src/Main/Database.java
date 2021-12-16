@@ -7,6 +7,10 @@ public class Database {
 	// Fields
 	private ArrayList<Movie> movies;
 	
+	public Database() {
+		
+	}
+	
 	// Constructor
 	public Database(String filename){
 		movies = new ArrayList<>();
@@ -20,6 +24,10 @@ public class Database {
 			String director = "";
 			String year = "";
 			String runtime = "";
+			
+			if(fr.getLine(i) == "") { 
+				continue;
+			}
 			
 			// Get a new line from database file (db.txt)
 			String raw = fr.getLine(i);
