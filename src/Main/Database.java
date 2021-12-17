@@ -55,6 +55,49 @@ public class Database {
 		
 	}
 	
+	public Database(String filename, String removeTitle){
+		movies = new ArrayList<>();
+
+		fileRead fr = new fileRead(filename);
+		fr.removeLine(removeTitle);
+		for(int i = 0; i < fr.getNumberOfLines(); i++){
+			
+			String movieName = "";
+			String actor1 = "";
+			String actor2 = "";
+			String director = "";
+			String year = "";
+			String runtime = "";
+			
+			if(fr.getLine(i) == "") { 
+				continue;
+			}
+			
+			// Get a new line from database file (db.txt)
+			String raw = fr.getLine(i);
+			
+			// parse raw line data delimited by comma 
+			StringTokenizer tokenizer = new StringTokenizer(raw, ",");
+
+			// store each value into tempMovie array
+			while(tokenizer.hasMoreTokens()) {
+				movieName = tokenizer.nextToken();
+				actor1 = tokenizer.nextToken();
+				actor2 = tokenizer.nextToken();
+				director = tokenizer.nextToken();
+				year = tokenizer.nextToken();
+				runtime = tokenizer.nextToken();
+			}
+			
+			//create Movie object
+			Movie newMovie = new Movie(movieName, actor1, actor2, director, Integer.parseInt(year), Integer.parseInt(runtime));
+			
+			// Add an entry into the movies ArrayList
+			addEntry(newMovie);
+		}
+		
+	}
+	
 	// Methods
 	public void addEntry(Movie newEntry){
 		this.movies.add(newEntry);

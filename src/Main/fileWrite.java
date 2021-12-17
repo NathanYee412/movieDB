@@ -22,18 +22,16 @@ public class fileWrite {
 	
 	//Methods
 	public void writeLine(String newLine){
-		// TODO: Add the newLine to the writeBuffer...
 		writeBuffer.add(newLine);
 		
 	}
 	
 	public void saveFile() {
-		// TODO: Save all of the lines in the writeBuffer to the file (given in filename)
 		String dir = System.getProperty("user.dir");
 		try {
 			FileWriter writer = new FileWriter(dir + "/src/Main/" + filename, true);
 			for(String i: writeBuffer) {
-				writer.write("\n" + i + System.lineSeparator());
+				writer.write(i + "\n");
 			}
 			writer.close();
 		} catch (IOException e) {
@@ -41,5 +39,22 @@ public class fileWrite {
 			e.printStackTrace();
 		}
 	}
+	
+	public void overwriteFile() {
+		String dir = System.getProperty("user.dir");
+		try {
+			FileWriter writer = new FileWriter(dir + "/src/Main/" + filename);
+			for(String i: writeBuffer) {
+				writer.write(i + "\n");
+			}
+			writer.close();
+		} catch (IOException e) {
+			// Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
+	
 }
 

@@ -25,6 +25,7 @@ public class Main {
 			System.out.println("e.) search by director");
 			System.out.println("f.) search by title");
 			System.out.println("g.) quit");
+			System.out.println("h.) remove entry");
 			System.out.println();
 
 			System.out.println("Please enter your selection: ");
@@ -46,14 +47,16 @@ public class Main {
 			}
 			
 			else if(switchSelection.toLowerCase().equals("b")) {
-				System.out.printf("Please enter an actor name: ");
+				System.out.println("Please enter an actor name: ");
+				System.out.printf(">: ");
 				String actor = input.getKeyboardLine();
 				System.out.println();
 				db.searchByActor(actor);
 				input.getKeyboardLine();
 			}
 			else if(switchSelection.toLowerCase().equals("c")) {
-				System.out.printf("Please enter a year: ");
+				System.out.println("Please enter a year: ");
+				System.out.printf(">: ");
 				String year = input.getKeyboardLine();
 				System.out.println();
 				db.searchByYear(Integer.parseInt(year));
@@ -61,7 +64,8 @@ public class Main {
 
 			}
 			else if(switchSelection.toLowerCase().equals("d")) {
-				System.out.printf("Please enter a movie runtime: ");
+				System.out.println("Please enter a movie runtime: ");
+				System.out.printf(">: ");
 				String rt = input.getKeyboardLine();
 				System.out.println();
 				db.searchByRuntime(Integer.parseInt(rt));
@@ -69,7 +73,8 @@ public class Main {
 
 			}
 			else if(switchSelection.toLowerCase().equals("e")) {
-				System.out.printf("Please enter a director name: ");
+				System.out.println("Please enter a director name: ");
+				System.out.printf(">: ");
 				String director = input.getKeyboardLine();
 				System.out.println();
 				db.searchByDirector(director);
@@ -77,7 +82,8 @@ public class Main {
 
 			}
 			else if(switchSelection.toLowerCase().equals("f")) {
-				System.out.printf("Please enter a movie title: ");
+				System.out.println("Please enter a movie title: ");
+				System.out.printf(">: ");
 				String title = input.getKeyboardLine();
 				System.out.println();
 				db.searchByTitle(title);
@@ -86,10 +92,20 @@ public class Main {
 			}
 			
 			else if(switchSelection.toLowerCase().equals("g")) {
-				System.out.printf("Exitng Program");
+				System.out.println("Exitng Program");
+				System.out.printf(">: ");
 				System.out.println();
 				exit = true;
 			}
+			else if(switchSelection.toLowerCase().equals("h")) {
+				System.out.println("Please enter the movie title you would like to remove: ");
+				System.out.printf(">: ");
+				String removeTitle = input.getKeyboardLine();
+				db = new Database("db.txt", removeTitle);
+				System.out.println();
+			}
+			
+
 			
 		}
 		

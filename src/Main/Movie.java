@@ -44,10 +44,7 @@ public class Movie {
 		return this.runtimeMinutes;
 	}
 	
-	// Optional TODO
-	public boolean isActorInMovie(String actor){
-		return false;
-	}
+
 }
 
 

@@ -22,7 +22,6 @@ public class fileRead {
 		try {
 			Scanner s = new Scanner(new File(dir + "/src/Main/" + filename));
 			while(s.hasNext()) {
-//				System.out.println(s.nextLine());
 				lines.add(s.nextLine());
 				count++;
 			}
@@ -41,5 +40,25 @@ public class fileRead {
 	
 	public String getLine(int index){
 		return this.lines.get(index);
+	}
+	
+	public void removeLine(String title) {	
+		for(int i = 0; i < this.lines.size(); i++) {
+			
+			String tempTitle[] = this.lines.get(i).split(",",2);
+
+			if(tempTitle[0].toLowerCase().equals(title.toLowerCase())) {
+				System.out.println("Removing " + lines.get(i));
+				lines.remove(i);
+				this.lineCount--;
+			}
+		}
+		fileWrite fr = new fileWrite("db.txt");
+		for(int i = 0; i < this.lines.size(); i++) {
+			
+			fr.writeLine(this.lines.get(i));
+			
+		}
+		fr.overwriteFile();
 	}
 }

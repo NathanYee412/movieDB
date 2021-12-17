@@ -1,7 +1,6 @@
 The matrix,Keanu Reeves,Laurance Fishburne,Lana Wachowski,1999,196
 Starwars IX,Daisy Ridley,John Boyega,Nick Yee,2001,299
 Shang-Chi and the Legend of the Ten Rings,Simu Liu,Awkwafina,Destin Daniel Cretton,2021,132
-Dune,Timothee Chalamet,Rebecca Ferguson,Denis Villeneuve,2021,155
 No Time to Die,Daniel Craig,Ana de Armas,Cary Joji Fukunaga,2021,163
 Bruised,Halle Berry,Adan Canto,Halle Berry,2020,129
 Sonic the Hedgehog,Ben Schwartz,Jim Carrey,Jeff Fowler,2020,99
@@ -48,11 +47,3 @@ Looper,Joseph Gordon-Levitt,Bruce Willis,Rian Johnson,2012,113
 Django Unchained,Jamie Foxx,Christoph Waltz,Quentin Tarantino,2012,165
 21 Jump Street,Jonah Hill,Ice Cube,Phil Lord,2012,109
 Men in Black,Will Smith,Timmy Lee Jones,Barry Sonnenfeld,98,1997
-
-
-
-test,test,test,test,1200,123
-
-test,test,test,test,123,123
-
-test2,test2,test2,test2,124,215
